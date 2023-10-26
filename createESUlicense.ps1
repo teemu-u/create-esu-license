@@ -9,8 +9,22 @@ Connect-AzAccount
 # Get the access token
 $token = (Get-AzAccessToken).Token
 
+# Check if CSV file exists
+if (-not (Test-Path .\example.csv)) {
+    Write-Host "CSV file not found, exiting..."
+    Exit
+}
 # Import data from CSV file
-$csv = Import-Csv -Path .\example.csv -Delimiter ';'
+else {
+    Write-Host "CSV file found, importing..."
+    $csv = Import-Csv -Path .\example.csv -Delimiter ';'
+}
+
+# Check if CSV file is empty
+if ($null -eq $csv) {
+    Write-Host "Mapping file empty, exiting..."
+    Exit
+}
 
 # Convert tags to hashtable
 foreach ($row in $csv) {
