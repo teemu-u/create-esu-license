@@ -4,9 +4,9 @@ You could have simple mapping CSV file like this:
 
 ```csv
 "LicenseName";"ResourceGroup";"SubscriptionId";"CoreCount";"CoreType";"OS";"LicenseEdition";"Tags"
-"License1";"test";"f492f182-c3b1-416f-b78e-3c0b77375c31";"12";"vCore";"Windows Server 2012";"Standard";"Datacenter=DC1,City=Helsinki"
-"License2";"test";"f492f182-c3b1-416f-b78e-3c0b77375c31";"8";"pCore";"Windows Server 2012 R2";"Datacenter";"Datacenter=DC1,City=Helsinki"
-"License3";"test";"f492f182-c3b1-416f-b78e-3c0b77375c31";"16";"vCore";"Windows Server 2012 R2";"Standard";"Datacenter=DC1,City=Oulu"
+"License1";"test";"23131saf-c3b1-416f-b78e-3c23451234sd";"12";"vCore";"Windows Server 2012";"Standard";"Datacenter=DC1,City=Helsinki"
+"License2";"test";"23131saf-c3b1-416f-b78e-3c23451234sd";"8";"pCore";"Windows Server 2012 R2";"Datacenter";"Datacenter=DC1,City=Helsinki"
+"License3";"test";"23131saf-c3b1-416f-b78e-3c23451234sd";"16";"vCore";"Windows Server 2012 R2";"Standard";"Datacenter=DC1,City=Oulu"
 ```
 
 You can also use Excel to edit that file content:
