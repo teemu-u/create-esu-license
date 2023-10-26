@@ -1,4 +1,7 @@
-# Create ESU licenses for Azure Arc resources
+# Create ESU licenses for Azure Arc resources at scale
+
+Sometimes there is a need to create ESU liceses per environment or even per server.
+This can be a daunting task and therefore I created this script to aid you.
 
 You could have simple mapping CSV file like this:
 
